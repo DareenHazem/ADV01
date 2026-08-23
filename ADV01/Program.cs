@@ -22,9 +22,30 @@ namespace ADV01
             #endregion
 
             #region Question 03
-            Pair<int, string> pair = new Pair<int, string>(30000, "Dareen");
-            pair.Show();
+            //Pair<int, string> pair = new Pair<int, string>(30000, "Dareen");
+            //pair.Show();
+            #endregion
+
+            #region Question 04
+            //Q4: What is a generic method? Write Swap<T> method.
+
+            //Generics allow you to write methods the actual type is specified when the code is used(compile time) not when it is written
+            //int x = 5;
+            //int y = 10;
+            //Console.WriteLine($"Before Swap: X = {x}, Y = {y}");
+            //Swap<int>( ref x, ref y );
+            //Console.WriteLine($"After Swap: X = {x}, Y = {y}");
             #endregion
         }
+
+        #region Methods
+        public static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+        }
+        #endregion
+
     }
 }
