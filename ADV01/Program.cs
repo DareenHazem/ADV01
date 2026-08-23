@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using ADV01.GenericInterfaces;
+using System.ComponentModel;
 
 namespace ADV01
 {
@@ -43,6 +44,28 @@ namespace ADV01
             //int[] array = { 5, 7, 9, 10, 1 };
             //Console.WriteLine($"Max Value: {FindMax<int>(array)}");
             #endregion
+
+            #region Question 06
+            //Q6: What is a generic interface? Write IRepository<T>. 
+
+            //Employee emp1 = new Employee(1, "Ahmed",40000);
+            //Employee emp2 = new Employee(2, "Kareem", 785000);
+            //Employee emp3 = new Employee(3, "Islam", 5000);
+            //EmployeeRepo repo1 = new EmployeeRepo();
+            //repo1.AddPerson(emp1);
+            //repo1.AddPerson(emp2);
+            //repo1.AddPerson(emp3);
+            //Console.WriteLine("=========== Delete ID 1 and show all the employees ===========");
+            //repo1.DeleteByID(1);
+            //List<Employee> employees = repo1.GetAll();
+            //foreach (Employee employee in employees)
+            //{
+            //    Console.WriteLine(employee);
+            //}
+            //Console.WriteLine($"\nFind Employee by ID: {repo1.GetById(2)}");
+            #endregion
+
+
         }
 
         #region Methods
