@@ -21,6 +21,10 @@ namespace ADV01
             //Console.WriteLine(container.Get(1));
             #endregion
 
+            #region Question 03
+            Pair<int, string> pair = new Pair<int, string>(30000, "Dareen");
+            pair.Show();
+            #endregion
         }
     }
 }
