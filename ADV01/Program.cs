@@ -36,6 +36,13 @@ namespace ADV01
             //Swap<int>( ref x, ref y );
             //Console.WriteLine($"After Swap: X = {x}, Y = {y}");
             #endregion
+
+            #region Question 05
+            //Q5: Write a generic method FindMax < T > that finds maximum value
+
+            //int[] array = { 5, 7, 9, 10, 1 };
+            //Console.WriteLine($"Max Value: {FindMax<int>(array)}");
+            #endregion
         }
 
         #region Methods
@@ -44,6 +51,22 @@ namespace ADV01
             T temp = a;
             a = b;
             b = temp;
+        }
+
+        public static T FindMax<T>(T[] items) where T : IComparable<T>
+        {
+            if (items is not null && items.Length > 0)
+            {
+                T maxValue = items[0];  
+                for (int i = 1; i < items.Length; i++)
+                {
+                    if (items[i].CompareTo(maxValue) > 0)
+                        maxValue = items[i];
+                }
+                return maxValue;
+            }
+
+            return default;
         }
         #endregion
 
