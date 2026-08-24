@@ -154,6 +154,13 @@ namespace ADV01
             //SafeList<int> s1 = new SafeList<int>();
             //Console.WriteLine(s1.GetElementAt(0));
             #endregion
+
+            #region Question 15
+            //Q15: What is covariance? Explain the 'out' keyword.
+
+            //Covariance uses out, the out keyword to specify that the type parameter is used only as output (return type)
+            //Derived --> Base
+            #endregion
         }
 
         #region Methods
