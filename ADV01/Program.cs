@@ -1,4 +1,5 @@
-﻿using ADV01.GenericInterfaces;
+﻿using ADV01.BaseClassConstraint;
+using ADV01.GenericInterfaces;
 using ADV01.InterfaceConstraint;
 using System.ComponentModel;
 using System.Data;
@@ -103,6 +104,16 @@ namespace ADV01
             //The interface constraint requires that the type implements the specified interface The type argument must implement that interface (directly or indirectly)
             //PrintStudents<Student> s1 = new PrintStudents<Student>();
             //s1.PrintStudent(new Student(1, "Dareen", 4));
+            #endregion
+
+            #region Question 11
+            //Q11: What is the base class constraint? Write an example.
+
+            //PrintInfo<Jobs> p1 = new PrintInfo<Jobs>();
+            //p1.Create(new Jobs(1, "Ahmed", "Doctor"));
+            //p1.Create(new Jobs(2, "Malak", "Engineer"));
+            //p1.Create(new Jobs(3, "Mona", "Nurse"));
+            //p1.ShowAll();
             #endregion
         }
 
