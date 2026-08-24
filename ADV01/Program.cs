@@ -1,6 +1,8 @@
 ﻿using ADV01.BaseClassConstraint;
 using ADV01.GenericInterfaces;
 using ADV01.InterfaceConstraint;
+using ADV01.MultipleConstraints;
+using Microsoft.VisualBasic;
 using System.ComponentModel;
 using System.Data;
 
@@ -114,6 +116,29 @@ namespace ADV01
             //p1.Create(new Jobs(2, "Malak", "Engineer"));
             //p1.Create(new Jobs(3, "Mona", "Nurse"));
             //p1.ShowAll();
+            #endregion
+
+            #region Question 12
+            //Q12: How do you apply multiple constraints? Write an example. 
+
+            //Combining multiple constraints to further restrict the types the order of constraints matters
+            //CRUD<HourlyEmployee> C1 = new CRUD<HourlyEmployee>();
+            //Console.WriteLine("===========Hourly Employees===========");
+            //C1.Create(new HourlyEmployee(1, "Ahmed", 100));
+            //C1.Create(new HourlyEmployee(2, "Nour", 500));
+            //C1.Delete(2);
+            //C1.GetAll();
+            //Console.WriteLine("===========Monthly Employees===========");
+            //CRUD<MonthlyEmployee> C2 = new CRUD<MonthlyEmployee>();
+            //C2.Create(new MonthlyEmployee(1, "Dareen", 100000));
+            //C2.Create(new MonthlyEmployee(2, "Kareem", 500000));
+            //C2.Create(new MonthlyEmployee(3, "Hana", 7000));
+            //C2.Update(3, "Lina");
+            //C2.GetAll();
+            //Console.WriteLine("===========Compare ID===========");
+            //HourlyEmployee h1 = C1.GetById(1);
+            //MonthlyEmployee m1 = C2.GetById(1);
+            //Console.WriteLine(h1.CompareTo(m1));
             #endregion
         }
 
