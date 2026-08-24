@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ADV01
 {
-    internal class Constraint<T> where T : struct 
+    internal class Constraint<T> where T : class 
     {
         public T Value { get; set; }
         public Constraint(T value)

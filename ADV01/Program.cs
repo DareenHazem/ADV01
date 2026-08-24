@@ -76,6 +76,17 @@ namespace ADV01
 
             //Constraint<String> Structconstraint2 = new Constraint<String>("Error"); // Will cause error cuz Sring is refernce type
             #endregion
+
+            #region Question 08
+            //Q8: What is the 'class' constraint? Write an example
+
+            // Constraints allow you to specify which types can be used as type arguments for a generic type 
+            // So The Class constraint allows only Reference types but value types are not allowed.
+            //Constraint<String> Classconstraint = new Constraint<String>("Hi");
+            //Classconstraint.print();
+
+            //Constraint<int> Classconstraint2 = new Constraint<int>(1); // Will cause an error cuz int is value type
+            #endregion
         }
 
         #region Methods
