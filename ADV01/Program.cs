@@ -169,6 +169,13 @@ namespace ADV01
             //Contravariance uses in, the in keyword to specify that the type parameter is used only as input (in parameter).
             //Base --> Derived
             #endregion
+
+            #region Question 17
+            //Q17: What is the difference between covariance and contravariance?
+
+            //Covariance uses out and allows derived--->base 
+            //Contravariance uses in and allows base--->derived 
+            #endregion
         }
 
         #region Methods
