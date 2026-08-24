@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ADV01
 {
-    internal class Constraint<T> where T : class 
+    internal class Constraint<T> where T : new() 
     {
         public T Value { get; set; }
         public Constraint(T value)
@@ -14,6 +14,11 @@ namespace ADV01
         public void print()
         {
             Console.WriteLine($"Value: {Value}");
+        }
+
+        public T Create()
+        {
+            return new T();   
         }
     }
 }

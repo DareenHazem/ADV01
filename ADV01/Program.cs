@@ -87,6 +87,14 @@ namespace ADV01
 
             //Constraint<int> Classconstraint2 = new Constraint<int>(1); // Will cause an error cuz int is value type
             #endregion
+
+            #region Question 09
+            //Q9: What is the 'new()' constraint? Write an example.
+
+            //The new() constraint requires that the type has a public parameterless(default) constructor It allows you to create new instances of T using new T()
+            //Constraint<Product> Newconstraint = new Constraint<Product>(new Product());
+            //Newconstraint.print();
+            #endregion
         }
 
         #region Methods
