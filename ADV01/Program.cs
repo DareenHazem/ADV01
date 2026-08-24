@@ -147,6 +147,13 @@ namespace ADV01
             // The default keyword returns the default value of a generic type
             // 0 for numerical types - null for reference types/ nullable value types - false for boolean
             #endregion
+
+            #region Question 14
+            // Q14: Write a SafeList<T> that returns default when the index is invalid.
+
+            //SafeList<int> s1 = new SafeList<int>();
+            //Console.WriteLine(s1.GetElementAt(0));
+            #endregion
         }
 
         #region Methods
