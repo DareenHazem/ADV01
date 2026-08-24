@@ -5,6 +5,7 @@ using ADV01.MultipleConstraints;
 using Microsoft.VisualBasic;
 using System.ComponentModel;
 using System.Data;
+using System.Reflection.Metadata;
 
 namespace ADV01
 {
@@ -160,6 +161,13 @@ namespace ADV01
 
             //Covariance uses out, the out keyword to specify that the type parameter is used only as output (return type)
             //Derived --> Base
+            #endregion
+
+            #region Question 16
+            //Q16: What is contravariance? Explain the 'in' keyword.
+
+            //Contravariance uses in, the in keyword to specify that the type parameter is used only as input (in parameter).
+            //Base --> Derived
             #endregion
         }
 
