@@ -183,6 +183,12 @@ namespace ADV01
             //Every new Generic type creates new independent static members
             // ex: The static member called count for int can be number for string can be a different number
             #endregion
+
+            #region Question 19
+            //Q19: How can you inherit from a generic class?
+
+            //Derived<T> inherits from Base<T> with the same type parameter T Whatever type T is (int, string,DateTime, ... ) it is used in both base and derived classes
+            #endregion
         }
 
         #region Methods
