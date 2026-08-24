@@ -1,5 +1,6 @@
 ﻿using ADV01.GenericInterfaces;
 using System.ComponentModel;
+using System.Data;
 
 namespace ADV01
 {
@@ -65,7 +66,16 @@ namespace ADV01
             //Console.WriteLine($"\nFind Employee by ID: {repo1.GetById(2)}");
             #endregion
 
+            #region Question 07
+            //Q7: What is the 'struct' constraint? Write an example.
 
+            // Constraints allow you to specify which types can be used as type arguments for a generic type 
+            // So The struct constraint allows only value types but Reference types are not allowed.
+            //Constraint<int> Structconstraint = new Constraint<int>(1);
+            //Structconstraint.print();
+
+            //Constraint<String> Structconstraint2 = new Constraint<String>("Error"); // Will cause error cuz Sring is refernce type
+            #endregion
         }
 
         #region Methods
