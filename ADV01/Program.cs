@@ -189,6 +189,19 @@ namespace ADV01
 
             //Derived<T> inherits from Base<T> with the same type parameter T Whatever type T is (int, string,DateTime, ... ) it is used in both base and derived classes
             #endregion
+
+            #region Question 20
+            //Q20: Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support. 
+
+            //Cache<int,string> c1 = new Cache<int, string>();
+            //c1.Add(1, "Dareen");
+            //c1.Add(2, "Ali");
+            //c1.Add(3, "Mohamed");
+            //Console.WriteLine(c1.GetByKey(1));
+            //Console.WriteLine($"Does it cointain key 2? {c1.Contains(2)}");
+            //c1.Remove(1);
+            //Console.WriteLine($"Does it cointain key 1? {c1.Contains(1)}");
+            #endregion
         }
 
         #region Methods
