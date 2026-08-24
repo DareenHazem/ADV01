@@ -176,6 +176,13 @@ namespace ADV01
             //Covariance uses out and allows derived--->base 
             //Contravariance uses in and allows base--->derived 
             #endregion
+
+            #region Question 18
+            //Q18: How do static members work in generic types?
+
+            //Every new Generic type creates new independent static members
+            // ex: The static member called count for int can be number for string can be a different number
+            #endregion
         }
 
         #region Methods
