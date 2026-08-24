@@ -1,4 +1,5 @@
 ﻿using ADV01.GenericInterfaces;
+using ADV01.InterfaceConstraint;
 using System.ComponentModel;
 using System.Data;
 
@@ -94,6 +95,14 @@ namespace ADV01
             //The new() constraint requires that the type has a public parameterless(default) constructor It allows you to create new instances of T using new T()
             //Constraint<Product> Newconstraint = new Constraint<Product>(new Product());
             //Newconstraint.print();
+            #endregion
+
+            #region Question 10
+            //Q10:  What is the interface constraint? Write an example.
+
+            //The interface constraint requires that the type implements the specified interface The type argument must implement that interface (directly or indirectly)
+            //PrintStudents<Student> s1 = new PrintStudents<Student>();
+            //s1.PrintStudent(new Student(1, "Dareen", 4));
             #endregion
         }
 
