@@ -140,6 +140,13 @@ namespace ADV01
             //MonthlyEmployee m1 = C2.GetById(1);
             //Console.WriteLine(h1.CompareTo(m1));
             #endregion
+
+            #region Question 13
+            //Q13: What does the 'default' keyword do in generics ?
+
+            // The default keyword returns the default value of a generic type
+            // 0 for numerical types - null for reference types/ nullable value types - false for boolean
+            #endregion
         }
 
         #region Methods
